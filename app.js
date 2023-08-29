@@ -300,7 +300,7 @@ function addRowToTable(tableBody, name, data, formattedDegree) {
     row.innerHTML = `
         <td>${name}</td>
         <td>${formattedDegree}</td>
-        <td>${data.is_retro === "true" ? "Yes" : "No"}</td>
+        <td>${data.is_retro === "true" ? "R" : "-"}</td>
         <td>${data.sign}</td>
         <td>Haus ${data.house}</td>
     `;
