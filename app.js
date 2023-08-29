@@ -302,7 +302,7 @@ function addRowToTable(tableBody, name, data, formattedDegree) {
         <td>${formattedDegree}</td>
         <td>${data.is_retro === "true" ? "Yes" : "No"}</td>
         <td>${data.sign}</td>
-        <td>${data.house}</td>
+        <td>Haus ${data.house}</td>
     `;
     tableBody.appendChild(row);
 }
